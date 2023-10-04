@@ -9,8 +9,8 @@ With all assets premade, all that's left is adding a front end form to allow a u
 </p>
 
 ## Prerequisites
-⋅⋅* Node.js (which is already implemented)
-⋅⋅* Metamask or any other wallet API
+* Node.js (which is already implemented)
+* Metamask or any other wallet API
 
 ## Connecting to the Wallet
 The connect button should be used for wallet sync
@@ -24,9 +24,9 @@ Add functionality to the connect button in the UI. If the user hasn't connected 
 The mint button should be used perform the mint request.
 Once the user is connected to the site with his wallet, conditionally add a mint button with a click handler to act upon. When the click happens of these functions will launch:
 
-⋅⋅* Create a contract instance for the NFT using `ethers.Contract` We will need the abi from contract, contract address, and an ethers provider.
+* Create a contract instance for the NFT using `ethers.Contract` We will need the abi from contract, contract address, and an ethers provider.
 
-⋅⋅* Call mint function on the contract instance we made and pass in params and the value of the mint function. This function will require setting a gas price and gas limit.
+* Call mint function on the contract instance we made and pass in params and the value of the mint function. This function will require setting a gas price and gas limit.
 
 End user will get the metamask prompt and then perform the transaction
 
